@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2. nap</title>
+    <link rel="stylesheet" href="css/my.css">
+  </head>
+  <body>
+    
+    <!--Felső menű-->
+    <nav class="main-menu">
+      <a href="products.html">Termékek</a>
+      <a href="newsletter.html">hírlevél</a>
+      <a href="about.html">Rólunk</a>
+    </nav>
+ 
+    <table>
+      <thead>
+        <tr>
+          <th>Név</th>
+          <th>email</th>
+          <th>foglalkozás</th>
+          <th>életkor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kis Jakab</td>
+          <td>ks.mihly@gmail.com</td>
+          <td>tűzoltó</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Nagy Peter</td>
+          <td>peter.nagy@gmail.com</td>
+          <td>festő</td>
+          <td>32</td>
+        </tr>
+        <tr>
+          <td>Szabó Anna</td>
+          <td>anna.szabo@gmail.com</td>
+          <td>nyugdíjas</td>
+          <td>73</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <!-- Feliratkozás hírlevélre. -->
+    
+    <h2>Kérjük adja meg adatait:</h2>
+    <div class="form-div">
+      <form method="get">
+        <label for="name">Név</label>
+        <br>
+        <input id="name" type="text" name="name">
+        <br>
+        <label for="email">email</label>
+        <br>
+        <input id="email" type="email" name="email">
+        <br>
+        <label for="job">foglalkozás</label>
+        <br>
+        <select name="job">
+          <option value="1">autószerelő</option>
+          <option value="2">varrónő</option>
+          <option value="3">festő</option>
+          <option value="4">varrónő</option>
+          <option value="5">portás</option>
+        </select>
+        <br><br>
+        <input type="submit" value="feliratkozás">
+        
+      </form>
+    </div> 
+  
+  </body>
+
+</html>
