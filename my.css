@@ -1,0 +1,22 @@
+.page-headers {
+  background-color: burlywood;
+}
+.bgred {
+  background-color: red;
+}
+
+.bgblue {
+  background-color: aqua;
+}
+
+#my-h21 {
+  font-size: 10px;
+}
+
+.img-holder {
+  height: 100px;
+}
+
+.base-img {
+  max-height: 100%;
+}
